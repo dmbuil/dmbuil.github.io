@@ -1,7 +1,7 @@
 // Variables
 
 // Main color
-$primary-color: #000;
+$primary-color: rgba(0,0,38,1);
 
 // Anchor color
 $secondary-color: #00cdff;
@@ -11,8 +11,10 @@ $font-color: #fff;
 
 $navbar-text-shadow: true;
 $header-text-shadow: true;
-$header-background-color: $primary-color;
+$header-background-color: rgba(0,0,0,1);
 $intro-text-color: $font-color;
+$intro-text-font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$intro-text-font-weight: 100;
 $navbar-color: $font-color;
 $navbar-lg-collapse-background-color: $header-background-color;
 $navbar-lg-background: transparent;

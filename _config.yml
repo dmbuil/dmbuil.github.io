@@ -29,10 +29,10 @@ force-https: True
 #############
 
 lang: "en"
-author: "John Smith"
+author: "Dario MB"
 title: "{ Dario MB }"
-description: "Website of Darío Martín Buil, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+description: " Website of Darío Martín Buil. "
+keywords: "smith, Dario, personal, jekyll, theme"
 favicon: "/img/favicon.ico"
 
 ################
@@ -41,7 +41,7 @@ favicon: "/img/favicon.ico"
 
 black-favicon: "/img/black-lab-glass.ico"
 
-background-img: "../img/intro-bg.jpg"
+background-img: "../img/bg-cloud2.jpg"
 
 ##############################
 # Dynamic Text on the Header #
@@ -55,10 +55,10 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
+  - text: "Shoulders back, head high. Step hard."
   - text: "Where’s your will to be weird?"
 
-me-img: "/img/jetpacktocat.png"
+me-img: "/img/me.jpg"
 
 ##############################
 # Color the browser elements #
@@ -117,10 +117,13 @@ events:
   - image: "/img/timeline/baracktocat.jpg"
     date: "September 2007 - August 2013"
     description: "Started coding"
+  - image: "/img/timeline/default.png"
+    date: "May 2005 - August 2007"
+    description: "sudo make engineer"
 
 # First image of the Timeline
 
-timeline-img: "/img/timeline/default.png"
+timeline-img: "/img/timeline/baby.jpg"
 
 ###########
 # Contact #
@@ -145,15 +148,15 @@ author_blurb_image: "/img/author.png"
 
 social:
   - title: "linkedin"
-    url: "https://linkedin.com/"
-  - title: "facebook"
-    url: "https://facebook.com/"
+    url: "https://linkedin.com/in/dariomartinbuil"
+#  - title: "facebook"
+#    url: "https://facebook.com/"
   - title: "twitter"
-    url: "https://twitter.com/"
+    url: "https://twitter.com/dmbuil"
   - title: "github"
-    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
-  - title: "bitcoin"
-    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
+    url: "https://github.com/dmbuil/"
+#  - title: "bitcoin"
+#    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
   - title: "rss"
     url: "/feed.xml"
 
