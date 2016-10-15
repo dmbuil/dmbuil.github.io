@@ -112,14 +112,14 @@ syntax-highlight: True
 
 events:
   - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
+    date: "July 2015 - Today"
+    description: "Cloud-baker Rank achieved!"
   - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+    date: "July 2014 - July 2015"
+    description: "T's Internship!"
   - image: "/img/timeline/default.png"
-    date: "May 2005 - August 2007"
-    description: "sudo make engineer"
+    date: "Sept 2010 - July 2015"
+    description: "sudo make engineer <br/> apt-get fork-Telco/master"
 
 # First image of the Timeline
 
@@ -139,7 +139,7 @@ email: "dariomartinbuil@outlook.com"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
+author_blurb: "D. lives in Madrid, where he works on N-dimensional Cloudy projects. In his spare time, he likes to eat cotton candy."
 author_blurb_image: "/img/author.png"
 
 ##################
@@ -170,7 +170,7 @@ social:
 # GPG on Keybase #
 ##################
 
-keybase-username: johnsmith
+keybase-username: dmbuil
 keybase-in-social: True
 keybase-in-footer: True
 
