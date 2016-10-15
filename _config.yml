@@ -111,7 +111,7 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/spidertocat.png"
+  - image: "/img/timeline/cloudmedal.png"
     date: "July 2015 - Today"
     description: "Cloud-baker Rank achieved!"
   - image: "/img/timeline/baracktocat.jpg"
