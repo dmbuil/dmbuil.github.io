@@ -1,0 +1,19 @@
+---
+layout: minimal
+---
+
+{% assign date_format = site.date_format | default: "%m/%d/%Y" %}
+<h1>Post categories</h1>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam illum, fugiat in similique iusto ipsam neque saepe dignissimos aliquid nisi. Ipsam saepe delectus fugit repudiandae repellendus nulla perspiciatis pariatur earum!</p>
+<div class="tags">
+  {% assign categories_list = "blog, code, css" | split: ", " %}
+    {% if categories_list.first[0] == null %}
+      {% for category in categories_list %}
+      <a href="{{ site.url }}/category/{{ category | slugify }}">{{ category }}</a>
+      {% endfor %}
+    {% else %}
+      {% for category in categories_list %}
+          <a href="{{ site.url }}/category/{{ category[0] | slugify }}">{{ category[0] }}</a>
+      {% endfor %}
+    {% endif %}
+</div>

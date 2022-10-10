@@ -1,23 +1,24 @@
-// Variables
+/**
+ * Set up here the general appearance of the theme.
+ */
 
-// Main color
-$primary-color: rgba(0,0,38,1);
+$themeColor: map-get($theme, themeColor) !default;
+$primaryDark: map-get($theme, primaryDark) !default;
+$accentDark: map-get($theme, accentDark) !default;
+$lightGray: map-get($theme, lightGray) !default;
+$texts: map-get($theme, texts) !default;
 
-// Anchor color
-$secondary-color: #00cdff;
+// Breakpoints
+$breakpoints: (
+  sm: 37.5rem
+);
 
-// Font color
-$font-color: #fff;
+// Margins
+$rowMargin: 10px;
+$itemMargin: 15px;
 
-$navbar-text-shadow: true;
-$header-text-shadow: true;
-$header-background-color: rgba(0,0,0,1);
-$intro-text-color: $font-color;
-$intro-text-font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$intro-text-font-weight: 100;
-$navbar-color: $font-color;
-$navbar-lg-collapse-background-color: $header-background-color;
-$navbar-lg-background: transparent;
-$navbar-sm-background-color: $navbar-lg-collapse-background-color;
+// Sizes
+$itemMinWidth: 300px;
 
-$social-buttons-color: $secondary-color;
+// Settings
+$maxItemsPerRow: 6;

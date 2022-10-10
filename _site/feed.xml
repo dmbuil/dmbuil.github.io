@@ -1,132 +1,257 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
-	<channel>
-		<title>{ Dario MB }</title>
-		<description> Website of Darío Martín Buil. </description>
-		<link>https://dmbuil.github.io</link>
-		<atom:link href="https://dmbuil.github.io/feed.xml" rel="self" type="application/rss+xml" />
-		
-			<item>
-				<title>Welcome to { Personal } Jekyll Theme!</title>
-				
-				
-					<description>&lt;p&gt;Click the view more posts link bellow, to see the currently available post-tutorials to help you get your { Personal } website up and running quicker!&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJekflix | A blog theme for Jekyll</title>
+    <description>DJekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 10 Oct 2022 20:53:31 +0200</pubDate>
+    <lastBuildDate>Mon, 10 Oct 2022 20:53:31 +0200</lastBuildDate>
+    <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>Hello World</title>
+        <description>&lt;p&gt;So finally this is it!
+I’ve been dwelling on it for quite a while now, but finally took the leap and deployed the Blog.&lt;/p&gt;
 
-</description>
-				
-				<pubDate>Sat, 27 Jun 2015 00:00:00 +0200</pubDate>
-				<link>https://dmbuil.github.io/tech/2015/06/27/welcome.html</link>
-				<guid isPermaLink="true">https://dmbuil.github.io/tech/2015/06/27/welcome.html</guid>
-			</item>
-		
-			<item>
-				<title>Initial setup</title>
-				
-				
-					<description>&lt;p&gt;All features of { Personal } are controlled by setting values to variables that are defined in the
-_config.yml file. Let’s start with the initial variables that you have to set before
-serving your { Personal } website for the first time.&lt;/p&gt;
+&lt;p&gt;Not sure yet about which direction it will take; whether I will be posting useful stuff and tutorials, or anything that comes to my mind.
+I can only promise that I will do my best to make good, curated content (as if this was enough, isn’t it?)&lt;/p&gt;
 
-</description>
-				
-				<pubDate>Thu, 25 Jun 2015 00:00:00 +0200</pubDate>
-				<link>https://dmbuil.github.io/tech/2015/06/25/initial-setup.html</link>
-				<guid isPermaLink="true">https://dmbuil.github.io/tech/2015/06/25/initial-setup.html</guid>
-			</item>
-		
-			<item>
-				<title>Modifying the Header</title>
-				
-				
-					<description>&lt;p&gt;The intro part of the index page (Header) is consisted of four elements:&lt;/p&gt;
+&lt;p&gt;Just one last thing…&lt;/p&gt;
 
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Hello World&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
-				
-				<pubDate>Wed, 24 Jun 2015 00:00:00 +0200</pubDate>
-				<link>https://dmbuil.github.io/tech/2015/06/24/intro-layout-tutorial.html</link>
-				<guid isPermaLink="true">https://dmbuil.github.io/tech/2015/06/24/intro-layout-tutorial.html</guid>
-			</item>
-		
-			<item>
-				<title>Web app mode</title>
-				
-				
-					<description>&lt;p&gt;You can make your website behave like a native web app in iOS and Android devices
-by providing links for the icons for each resolution:&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Mon, 22 Jun 2015 00:00:00 +0200</pubDate>
-				<link>https://dmbuil.github.io/tech/2015/06/22/web-app-mode.html</link>
-				<guid isPermaLink="true">https://dmbuil.github.io/tech/2015/06/22/web-app-mode.html</guid>
-			</item>
-		
-			<item>
-				<title>Setting up the Blog</title>
-				
-				
-					<description>&lt;p&gt;A website is truly personal if it hosts your blog as well, this place of the internet
-where you can place your thoughts about anything!&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Sat, 20 Jun 2015 00:00:00 +0200</pubDate>
-				<link>https://dmbuil.github.io/tech/2015/06/20/blog-tutorial.html</link>
-				<guid isPermaLink="true">https://dmbuil.github.io/tech/2015/06/20/blog-tutorial.html</guid>
-			</item>
-		
-			<item>
-				<title>Writing posts</title>
-				
-				
-					<description>&lt;h3 id=&quot;creating-a-new-post&quot;&gt;Creating a new post&lt;/h3&gt;
-
-</description>
-				
-				<pubDate>Fri, 19 Jun 2015 00:00:00 +0200</pubDate>
-				<link>https://dmbuil.github.io/tech/2015/06/19/writing-posts.html</link>
-				<guid isPermaLink="true">https://dmbuil.github.io/tech/2015/06/19/writing-posts.html</guid>
-			</item>
-		
-			<item>
-				<title>Adding a life event in the Timeline</title>
-				
-				
-					<description>&lt;p&gt;One of the coolest features of { Personal } is that enables you to tell your life’s story in
-the form of a timeline of photos, dates and text descriptions.&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Fri, 12 Jun 2015 00:00:00 +0200</pubDate>
-				<link>https://dmbuil.github.io/tech/2015/06/12/timeline-tutorial.html</link>
-				<guid isPermaLink="true">https://dmbuil.github.io/tech/2015/06/12/timeline-tutorial.html</guid>
-			</item>
-		
-			<item>
-				<title>Modifying the social buttons</title>
-				
-				
-					<description>&lt;p&gt;Social buttons (rendered above the footer) are great for having a small hub with all your social footprint.&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Thu, 11 Jun 2015 00:00:00 +0200</pubDate>
-				<link>https://dmbuil.github.io/tech/2015/06/11/social-buttons-tutorial.html</link>
-				<guid isPermaLink="true">https://dmbuil.github.io/tech/2015/06/11/social-buttons-tutorial.html</guid>
-			</item>
-		
-			<item>
-				<title>Modifying the Contact</title>
-				
-				
-					<description>&lt;p&gt;The contact part of the index page is consisted of two elements:&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Wed, 10 Jun 2015 00:00:00 +0200</pubDate>
-				<link>https://dmbuil.github.io/tech/2015/06/10/contact-tutorial.html</link>
-				<guid isPermaLink="true">https://dmbuil.github.io/tech/2015/06/10/contact-tutorial.html</guid>
-			</item>
-		
-	</channel>
+        <pubDate>Tue, 14 Sep 2021 19:01:56 +0200</pubDate>
+        <link>http://localhost:4000/hello-world/</link>
+        <guid isPermaLink="true">http://localhost:4000/hello-world/</guid>
+        
+        <category>blog</category>
+        
+        <category>welcome</category>
+        
+        <category>blog</category>
+      </item>
+    
+      <item>
+        <title>Welcome to the desert of the real</title>
+        <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
+        <pubDate>Fri, 17 May 2019 01:48:05 +0200</pubDate>
+        <link>http://localhost:4000/welcome-to-the-desert-of-the-real/</link>
+        <guid isPermaLink="true">http://localhost:4000/welcome-to-the-desert-of-the-real/</guid>
+        
+        <category>welcome</category>
+        
+        <category>blog</category>
+        
+        <category>blog</category>
+      </item>
+    
+      <item>
+        <title>Why books should be your priority?</title>
+        <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;!--page--&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list...</description>
+        <pubDate>Thu, 22 Nov 2018 13:26:40 +0100</pubDate>
+        <link>http://localhost:4000/why-books-should-be-your-priority/</link>
+        <guid isPermaLink="true">http://localhost:4000/why-books-should-be-your-priority/</guid>
+        
+        <category>books</category>
+        
+        <category>read</category>
+        
+        <category>life</category>
+      </item>
+    
+      <item>
+        <title>The quick brown fox jumps over a lazy dog</title>
+        <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
+        <pubDate>Tue, 09 Oct 2018 14:26:40 +0200</pubDate>
+        <link>http://localhost:4000/the-quick-brown-fox-jumps-over-a-lazy-dog/</link>
+        <guid isPermaLink="true">http://localhost:4000/the-quick-brown-fox-jumps-over-a-lazy-dog/</guid>
+        
+        <category>css</category>
+        
+        <category>tips</category>
+        
+        <category>css</category>
+      </item>
+    
+      <item>
+        <title>A wonderful serenity has taken possession of my entire soul</title>
+        <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
+        <pubDate>Fri, 20 Jul 2018 14:26:40 +0200</pubDate>
+        <link>http://localhost:4000/a-wonderful-serenity-has-taken-possession-of-my-entire-soul/</link>
+        <guid isPermaLink="true">http://localhost:4000/a-wonderful-serenity-has-taken-possession-of-my-entire-soul/</guid>
+        
+        <category>platform</category>
+        
+        <category>javascript</category>
+        
+        <category>vscode</category>
+        
+        <category>code</category>
+      </item>
+    
+      <item>
+        <title>Candy, candies, candy!</title>
+        <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
+        <pubDate>Sat, 21 Apr 2018 14:26:40 +0200</pubDate>
+        <link>http://localhost:4000/candy-candies-candy/</link>
+        <guid isPermaLink="true">http://localhost:4000/candy-candies-candy/</guid>
+        
+        <category>food</category>
+        
+        <category>tips</category>
+        
+        <category>diet</category>
+      </item>
+    
+      <item>
+        <title>Trust me, it will work</title>
+        <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
+        <pubDate>Mon, 12 Mar 2018 13:26:40 +0100</pubDate>
+        <link>http://localhost:4000/trust-me-it-will-work/</link>
+        <guid isPermaLink="true">http://localhost:4000/trust-me-it-will-work/</guid>
+        
+        <category>languages</category>
+        
+        <category>tips</category>
+        
+        <category>tips</category>
+      </item>
+    
+      <item>
+        <title>How to turn your dog into a Jedi master</title>
+        <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
+        <pubDate>Sat, 03 Feb 2018 13:26:40 +0100</pubDate>
+        <link>http://localhost:4000/how-to-turn-your-dog-into-a-jedi-master/</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-turn-your-dog-into-a-jedi-master/</guid>
+        
+        <category>jedi</category>
+        
+        <category>doggo</category>
+        
+        <category>starwars</category>
+        
+        <category>tutorial</category>
+      </item>
+    
+      <item>
+        <title>Let flexbox work for you or perish</title>
+        <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
+        <pubDate>Tue, 15 Aug 2017 00:55:45 +0200</pubDate>
+        <link>http://localhost:4000/let-flexbox-work-for-you-or-perish/</link>
+        <guid isPermaLink="true">http://localhost:4000/let-flexbox-work-for-you-or-perish/</guid>
+        
+        <category>css</category>
+        
+        <category>frontend</category>
+        
+        <category>css</category>
+      </item>
+    
+      <item>
+        <title>A star has fallen from the sky and the cat ate it</title>
+        <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
+        <pubDate>Tue, 08 Aug 2017 01:04:08 +0200</pubDate>
+        <link>http://localhost:4000/a-star-has-fallen-from-the-sky-and-the-cat-ate-it/</link>
+        <guid isPermaLink="true">http://localhost:4000/a-star-has-fallen-from-the-sky-and-the-cat-ate-it/</guid>
+        
+        <category>crazy</category>
+        
+        <category>story</category>
+        
+        <category>music</category>
+      </item>
+    
+      <item>
+        <title>Smoke alert</title>
+        <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
+        <pubDate>Sat, 29 Jul 2017 15:24:49 +0200</pubDate>
+        <link>http://localhost:4000/smoke-alert/</link>
+        <guid isPermaLink="true">http://localhost:4000/smoke-alert/</guid>
+        
+        <category>jekyll</category>
+        
+        <category>wordpress</category>
+        
+        <category>blog</category>
+        
+        <category>blog</category>
+      </item>
+    
+      <item>
+        <title>Do you believe that a spider can dance?</title>
+        <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
+        <pubDate>Thu, 08 Jun 2017 14:00:00 +0200</pubDate>
+        <link>http://localhost:4000/do-you-believe-that-a-spider-can-dance/</link>
+        <guid isPermaLink="true">http://localhost:4000/do-you-believe-that-a-spider-can-dance/</guid>
+        
+        <category>fate</category>
+        
+        <category>travel</category>
+        
+        <category>travel</category>
+      </item>
+    
+      <item>
+        <title>A cook cries in the rain at night</title>
+        <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
+        <pubDate>Sun, 04 Jun 2017 14:00:00 +0200</pubDate>
+        <link>http://localhost:4000/a-cook-cries-in-the-rain-at-night/</link>
+        <guid isPermaLink="true">http://localhost:4000/a-cook-cries-in-the-rain-at-night/</guid>
+        
+        <category>cook</category>
+        
+        <category>cucine</category>
+        
+        <category>story</category>
+        
+        <category>diet</category>
+      </item>
+    
+      <item>
+        <title>Grab your band and get out</title>
+        <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
+        <pubDate>Thu, 11 May 2017 14:00:00 +0200</pubDate>
+        <link>http://localhost:4000/grab-your-band-and-get-out/</link>
+        <guid isPermaLink="true">http://localhost:4000/grab-your-band-and-get-out/</guid>
+        
+        <category>music</category>
+        
+        <category>band</category>
+        
+        <category>passion</category>
+        
+        <category>music</category>
+      </item>
+    
+      <item>
+        <title>Passion is dangerous, go for it!</title>
+        <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
+        <pubDate>Sun, 06 Sep 2015 14:00:00 +0200</pubDate>
+        <link>http://localhost:4000/passion-is-dangerous-go-for-it/</link>
+        <guid isPermaLink="true">http://localhost:4000/passion-is-dangerous-go-for-it/</guid>
+        
+        <category>work</category>
+        
+        <category>career</category>
+        
+        <category>work</category>
+      </item>
+    
+      <item>
+        <title>Birds can fly, but this you knew already</title>
+        <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
+        <pubDate>Fri, 10 Sep 2010 14:26:40 +0200</pubDate>
+        <link>http://localhost:4000/birds-can-fly-but-this-you-knew-already/</link>
+        <guid isPermaLink="true">http://localhost:4000/birds-can-fly-but-this-you-knew-already/</guid>
+        
+        <category>life</category>
+        
+        <category>tips</category>
+        
+        <category>life</category>
+      </item>
+    
+  </channel>
 </rss>
