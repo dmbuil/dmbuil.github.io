@@ -1,0 +1,70 @@
+.copy-code-button {
+    /*
+    color: #ffff;
+    background-color:  #282a36;
+    border-color: #282a36;
+    border: 3px solid;
+    border-radius: 3px 3px 0px 0px;
+*/
+
+    @include mainFont(bold);
+    height: rem(30px);
+    line-height: rem(20px);
+    color: $themeColor;
+    padding: 0 rem(10px);
+    border: 1px solid $themeColor;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 0 rem(10px) rem(10px) 0;
+    z-index: 50;
+
+    background-color: $accentDark;
+
+    /* right-align */
+    display: inline-block;
+    float: right;
+    margin-left: auto;
+    margin-right: 0;
+
+    margin-bottom: -2px;
+    padding: 3px 8px;
+    font-size: 0.8em;
+
+    &:hover {
+        cursor: pointer;
+        color: $accentDark;
+        background: $themeColor;
+        border-color: $themeColor;
+    }
+    &:focus {
+        /* Avoid an ugly focus outline on click in Chrome,
+           but darken the button for accessibility.
+           See https://stackoverflow.com/a/25298082/1481479 */
+        background-color: #E6E6E6;
+        outline: 0;
+    }
+    &:active {
+        background-color: #D9D9D9;
+    } 
+}
+
+.highlight
+{
+    margin-top: 0;
+}
+
+.highlighter-rouge {
+    margin-top: 0;
+
+    >span {
+        @include mainFont(bold);
+        display: inline-block;
+        text-align:left;
+        padding: 10px 10px 5px 0px;
+    }
+}
+
+.highlight pre {
+    /* Avoid pushing up the copy buttons. */
+    margin: 0;
+}

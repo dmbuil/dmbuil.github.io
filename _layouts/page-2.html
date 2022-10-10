@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<video autoplay muted playsInline disablePictureInPicture="true" id="myVideo" style="position: fixed;
+right: 0;bottom: 0;width: 100%; height: 100%;" src="/assets/vid/video-5.mp4" type="video/mp4">
+</video>
+<div class="post">
+  <article class="post-content fullwidth" style="background: rgba(0255, 255, 255, 0);
+  ">
+    {{ content }}
+  </article>
+  <script>
+    document.getElementById('myVideo').play();
+  </script>
+</div>
