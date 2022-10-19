@@ -95,7 +95,7 @@
 
     {% include subscription.html %}
     {% include share.html %}
-    {% include author.html %}
+    <!-- {% include author.html %} -->
     {% include comments.html %}
     {% include footer.html %}
 
@@ -126,6 +126,8 @@
     {% assign author_urls = author_urls | append: '"https://www.linkedin.com/in/' | append: author.linkedin_username |
     append: '",' %}
     {% endif %}
+    
+    <!-- MathJax parsing -->
     {% if page.math %}
     <script>
         MathJax = {
@@ -138,6 +140,7 @@
         src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
         </script>
     {% endif %}
+    
     <script type="application/ld+json">
         {
             "@context": "http://schema.org",

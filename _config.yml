@@ -1,23 +1,21 @@
 # Site Settings
-name: DJekflix
-title: DJekflix | A blog theme for Jekyll
-description: DJekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.
+name: dmbuil
+title: dmbuil | Dario's personal site
+description: dmbuil's personal site.
 tags:
   - blog
-  - template
   - jekyll
   - theme
-  - netlify
 email: dariomartinbuil@outlook.com
-disqus_username: disqus_username
+disqus_username:
 show_hero: true
 menu:
   - title: Home
     url: /
-  - title: "🇬🇧 About"
+  - title: "About"
     url: /about-en
-  - title: "🇪🇸 Sobre mí"
-    url: /about-es
+#  - title: "🇪🇸 Sobre mí"
+#    url: /about-es
   - title: Contact
     url: /contact
   - title: Tags
@@ -25,10 +23,9 @@ menu:
   - title: Feed
     url: /feed.xml
 
-
 # Social Media Settings
 # Remove the item if you don't need it
-github_username: github_username
+github_username: dmbuil
 facebook_username: 
 twitter_username: 
 instagram_username: 
@@ -36,22 +33,20 @@ linkedin_username: dariomartinbuil
 medium_username: 
 keybase_username: dmbuil
 
-
 # Posts Settings
 show_time_bar: true
 show_modal_on_exit: false
 show_modal_on_finish_post: true
 two_columns_layout: true
 
-
 # Advanced Settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://condescending-kare-6f6a05.netlify.app" # the base hostname & protocol for your site
-google_analytics: "UA-XXXXXXXX-X"
+url: "https://dmbuil.github.io" # the base hostname & protocol for your site
+google_analytics: "G-5MD5SLR3PW" # GA4
 language: "en"
 categories_folder: category
 sent_message_url: "/contact/message-sent/"
-
+formspree_endpoint: "xeqdzyrw"
 
 # Build settings
 markdown: kramdown
@@ -106,4 +101,4 @@ exclude: [
 ]
 
 # Theme
-version: v0.0.3beta
+version: v0.0.5beta

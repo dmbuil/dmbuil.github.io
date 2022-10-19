@@ -46,8 +46,8 @@
     background: $themeColor;
     font-size: rem(18px);
     width: 100%;
-    border: 1px solid darken($themeColor, 30%);
-    border-width: 1px 1px 3px;
+    border: 0px;
+    border-radius: rem(29px);
     margin-top: rem(50px);
     margin-bottom: rem(10px);
     cursor: pointer;

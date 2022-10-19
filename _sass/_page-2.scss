@@ -37,48 +37,27 @@
     padding: rem(60px) rem(10px) 0;
   }
 
+  &.badges {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    margin: 0 25%;
+  }
+
+  &.badge {
+    width: 10%;
+  }
+
   img {
     max-width: 100%;
     margin: rem(0px) auto;
     display: block;
     padding: 10px 0;
-  }
 
-  .fade-in-image {
-    animation: fadeIn 5s;
-    -webkit-animation: fadeIn 5s;
-    -moz-animation: fadeIn 5s;
-    -o-animation: fadeIn 5s;
-    -ms-animation: fadeIn 5s;
-  }
-  @keyframes fadeIn {
-    0% {opacity:0;}
-    85% {opacity:0;}
-    100% {opacity:1;}
-  }
-  
-  @-moz-keyframes fadeIn {
-    0% {opacity:0;}
-    85% {opacity:0;}
-    100% {opacity:1;}
-  }
-  
-  @-webkit-keyframes fadeIn {
-    0% {opacity:0;}
-    85% {opacity:0;}
-    100% {opacity:1;}
-  }
-  
-  @-o-keyframes fadeIn {
-    0% {opacity:0;}
-    85% {opacity:0;}
-    100% {opacity:1;}
-  }
-  
-  @-ms-keyframes fadeIn {
-    0% {opacity:0;}
-    85% {opacity:0;}
-    100% {opacity:1;}
+    &.badge-img {
+      max-height: rem(100px);
+    }
   }
 
   figure {

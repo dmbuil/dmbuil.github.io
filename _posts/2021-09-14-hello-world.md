@@ -3,12 +3,11 @@ date: 2021-09-14 17:01:56
 layout: post
 title: "Hello World"
 subtitle: Welcome to my Blog
-description:
-image: https://w.wallhaven.cc/full/3k/wallhaven-3kzroy.jpg
-optimized_image: https://w.wallhaven.cc/full/3k/wallhaven-3kzroy.jpg
+description: After all this time, I can truly say that this is my First page to this blog. Finally.
+image: https://res.cloudinary.com/dguibifnv/image/upload/t_crop_and_save/v1666204556/dmbuil-github-pages/hello-world_gheqhg.jpg
+optimized_image: https://res.cloudinary.com/dguibifnv/image/upload/t_to_thumbnail/v1666204556/dmbuil-github-pages/hello-world_gheqhg.jpg
 category: blog
 tags:
-    - blog
     - welcome
 author: dmbuil
 paginate: false
