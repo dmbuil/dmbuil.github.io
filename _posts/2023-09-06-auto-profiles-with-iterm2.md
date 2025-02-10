@@ -28,11 +28,10 @@ But first, you must understand the meaning of the word [**Profile**](https://ite
 
 A [**Profile**](https://iterm2.com/documentation-preferences-profiles-general.html) on iTerm2 is a set of features that are packed up altogether, so you can easily switch to another one easily.
 
-<a id="fig1"></a> 
 ![image](https://res.cloudinary.com/dguibifnv/image/upload/v1666128098/dmbuil-github-pages/iterm2-profiles_hmnmey.png) 
 <figcaption> Figure 1. Profile section.</figcaption>
 
-You always begin with the _Default_ profile (seems legit), and as you can see on [Figure 1](#fig1), which contains pre-configured features such as the terminal's colours and fonts, cursor types, bells, etc.
+You always begin with the _Default_ profile (seems legit), and as you can see on [Figure 1], which contains pre-configured features such as the terminal's colours and fonts, cursor types, bells, etc.
 
 To add a new profile, just navigate to **Preferences → Profiles**, and then click on the **+** symbol under the list of Profiles. Or you can just edit the default profile, if you want. 
 
@@ -58,7 +57,6 @@ This can be achieved with **Login Commands** and **Automatic Profile Switching**
 First you have to install **iTerm's Shell integration** on every profile (server and user) you want it to integrate with!
 This is, your local machine, both for your user _and_ root and any remote server.
 
-<a id="fig2"></a> 
 ![image](https://res.cloudinary.com/dguibifnv/image/upload/t_crop_and_save/v1694034756/dmbuil-github-pages/integration-1.png) 
 <figcaption> Figure 2. Install Shell integration wizard.</figcaption>
 
@@ -68,12 +66,11 @@ This can be easily done just by navigating to **iTerm2 → Install Shell integra
 
 Back to the profiles, Loging Command is a command that will be used whenever switching into a profile manually.
 
-<a id="fig3"></a> 
 ![image](https://res.cloudinary.com/dguibifnv/image/upload/t_crop_and_save/v1694034010/dmbuil-github-pages/profile-2.png) 
 <figcaption> Figure 3. Login Command.</figcaption>
 
 In the example, whenever I select the profile **Raspberry Pi**, iTerm will ssh into `pi.boombox`. 
-On the dropdown, you may find other alternatives, such as **Custom Shell** (i.e., use `zsh` for a specific profile) or just a plain **Command**. As if iTerm was a Remote Connection Manager (Did you see the **Tags** field on [Fig. 3](#fig3)? 😇)
+On the dropdown, you may find other alternatives, such as **Custom Shell** (i.e., use `zsh` for a specific profile) or just a plain **Command**. As if iTerm was a Remote Connection Manager (Did you see the **Tags** field on [Fig. 3]? 😇)
 
 I left the best for the end: **Automatic Profile Switching**.
 
@@ -84,9 +81,9 @@ Have a look at the rule syntax; I usually just use the session prompt and it's b
 And you can add as many rules as you want.
 
 ![image](https://res.cloudinary.com/dguibifnv/image/upload/t_crop_and_save/v1694035285/dmbuil-github-pages/profile-3.png) 
-<figcaption> Figure 3. Root rule.</figcaption>
+<figcaption> Figure 4. Root rule.</figcaption>
 
-I indeed have a **root** profile to remember me that I am _doing naughty things_ [Figure 4](#fig4). For this, I added the following rules to make sure that no session would go unwarned:
+I indeed have a **root** profile to remember me that I am _doing naughty things_ [Figure 4]. For this, I added the following rules to make sure that no session would go unwarned:
 
  - `root`
  - `root@` 
