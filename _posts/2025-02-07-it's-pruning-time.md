@@ -4,8 +4,9 @@ layout: post
 title: "It's pruning time"
 subtitle: Prune obsolete local branches in Git
 description: Learn how to prune obsolete local branches in Git with a simple snippet.
-image: https://res.cloudinary.com/dguibifnv/image/upload/t_crop_and_save/v1739213644/dmbuil-github-pages/th2.jpg
-optimized_image: https://res.cloudinary.com/dguibifnv/image/upload/t_to_thumbnail/v1739213644/dmbuil-github-pages/th2.jpg
+image: 
+  path: https://res.cloudinary.com/dguibifnv/image/upload/t_crop_and_save/v1739213644/dmbuil-github-pages/th2.jpg
+  lqip: https://res.cloudinary.com/dguibifnv/image/upload/t_to_thumbnail/v1739213644/dmbuil-github-pages/th2.jpg
 category: snippets
 tags: 
  - git

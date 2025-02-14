@@ -4,8 +4,9 @@ layout: post
 title: "Hello World"
 subtitle: Welcome to my Blog
 description: After all this time, I can truly say that this is my First page to this blog. Finally.
-image: https://res.cloudinary.com/dguibifnv/image/upload/t_crop_and_save/v1666204556/dmbuil-github-pages/hello-world_gheqhg.jpg
-optimized_image: https://res.cloudinary.com/dguibifnv/image/upload/t_to_thumbnail/v1666204556/dmbuil-github-pages/hello-world_gheqhg.jpg
+image: 
+  path: https://res.cloudinary.com/dguibifnv/image/upload/t_crop_and_save/v1666204556/dmbuil-github-pages/hello-world_gheqhg.jpg
+  lqip: https://res.cloudinary.com/dguibifnv/image/upload/t_to_thumbnail/v1666204556/dmbuil-github-pages/hello-world_gheqhg.jpg
 category: blog
 tags:
     - welcome

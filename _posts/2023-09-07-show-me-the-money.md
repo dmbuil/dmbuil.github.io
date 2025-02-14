@@ -4,8 +4,9 @@ layout: post
 title: "Show me the money"
 subtitle: Copy files between Windows servers with no hassle
 description: Learn how to copy files between Windows servers with no hassle using a simple trick.
-image: https://res.cloudinary.com/dguibifnv/image/upload/t_crop_and_save/v1739215034/dmbuil-github-pages/money-1.jpg
-optimized_image: https://res.cloudinary.com/dguibifnv/image/upload/t_to_thumbnail/v1739215034/dmbuil-github-pages/money-1.jpg
+image: 
+  path: https://res.cloudinary.com/dguibifnv/image/upload/t_crop_and_save/v1739215034/dmbuil-github-pages/money-1.jpg
+  lqip: https://res.cloudinary.com/dguibifnv/image/upload/t_to_thumbnail/v1739215034/dmbuil-github-pages/money-1.jpg
 category: tricks
 tags: 
  - windows
