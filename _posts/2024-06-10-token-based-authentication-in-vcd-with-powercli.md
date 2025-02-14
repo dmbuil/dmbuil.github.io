@@ -51,6 +51,8 @@ This function will create a session with the VCD instance and store it in the `$
 
 I could have added the typical `begin{}`, `process{}`, and `end{}` PowerShell blocks to the function, but I wanted to keep it as simple as possible. Feel free to enhance it as you see fit.
 
-Hope this helps!
+_Hope this helps!_
+
+---
 
 [^1]: You may check the official documentation for the `Connect-CIServer` cmdlet [here](https://developer.broadcom.com/powercli/latest/vmware.vimautomation.cloud/commands/connect-ciserver).

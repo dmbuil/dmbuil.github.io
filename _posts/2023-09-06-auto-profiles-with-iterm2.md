@@ -99,4 +99,4 @@ So if we put **Login Commands** and **Automatic Profile Switching** on the same 
 
 In future posts I will cover further integrations and tricks. 
 
-Hope it helps!
+_Hope it helps!_
