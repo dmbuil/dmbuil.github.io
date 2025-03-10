@@ -47,7 +47,7 @@ Now _we can set Cerberus free_ and use the `Connect-CIServerV2` function to auth
 Connect-CIServerV2 -Server "vcd.example.com" -Org "MyOrg" -AccessToken "your_access_token"
 ```
 
-This function will create a session with the VCD instance and store it in the `$global:DefaultCIServers` variable, so you can use it in subsequent cmdlets. 
+This function will create a session with the VCD instance and store it in the `$global:DefaultCIServers` variable, so you can use it in subsequent cmdlets.
 
 I could have added the typical `begin{}`, `process{}`, and `end{}` PowerShell blocks to the function, but I wanted to keep it as simple as possible. Feel free to enhance it as you see fit.
 
