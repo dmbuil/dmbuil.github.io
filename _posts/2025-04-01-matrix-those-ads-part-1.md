@@ -2,8 +2,8 @@
 date: 2025-04-01 15:01:50
 layout: post
 title: "Matrix those Ads - Part 1"
-subtitle:
-description:
+subtitle: How to protect yourself from ads and trackers
+description: "First steps to protect yourself from ads and trackers: uBlock Origin"
 image:
   path: https://res.cloudinary.com/dguibifnv/image/upload/t_crop_and_save/v1743540259/dmbuil-github-pages/ads-1-crop.jpg
   lqip: https://res.cloudinary.com/dguibifnv/image/upload/t_to_thumbnail/v1743540259/dmbuil-github-pages/ads-1-crop.jpg
