@@ -9,7 +9,7 @@ description: |
 image:
   path: https://res.cloudinary.com/dguibifnv/image/upload/t_crop_and_save/v1741624762/dmbuil-github-pages/url-scheme.jpg
   lqip: https://res.cloudinary.com/dguibifnv/image/upload/t_to_thumbnail/v1741624762/dmbuil-github-pages/url-scheme.jpg
-category: 
+category: tutorial
 tags:
 - ios
 - reverse-engineering
